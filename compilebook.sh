@@ -9,3 +9,4 @@ then
 fi
 pandoc $CHAPTERS ../Manuscript/metadata.yaml -s --toc --toc-depth=2 -o Output/$outputfile
 #cat ../Manuscript/* | pandoc -s -o Output/$outputfile --toc
+open Output/$outputfile
