@@ -1,0 +1,25 @@
+---
+title:
+- type: main
+  text: My Book
+- type: subtitle
+  text: An investigation of metadata
+creator:
+- role: author
+  text: John Smith
+- role: editor
+  text: Sarah Jones
+subject: Stuff
+description: A book about stuff
+type: Fiction
+format: ePub
+relation: I don't know
+coverage: full
+cover-image: Templates/E-Book/samplecover.png
+stylesheet: Styles/default.css
+identifier:
+- scheme: DOI
+  text: doi:10.234234.234/33
+publisher:  My Press
+rights: © 2007 John Smith, CC BY-NC
+...
