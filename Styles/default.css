@@ -6,10 +6,30 @@ Ian Hocking 2013
 
 */
 
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 p {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.title,
+.author,
+.publisher,
+.rights {
+    text-align: center;
+}
+
+.title {
+    hyphens: none;
+}
+
+.rights {
+    vertical-align: text-bottom;
+    margin-top: 75%;
 }
 
 h1,
@@ -47,6 +67,23 @@ blockquote p {
 blockquote+p {
     margin: 0;
     text-indent: 1em;
+}
+
+.section h1 {
+    margin: 0;
+    text-indent: 0;
+    page-break-before: always;
+    text-align: left;
+    font-size: 1em;
+    height: 3em;
+}
+
+.toc {
+    list-style-type: none;
+}
+
+.toc-title {
+    font-size: 4em;
 }
 
 h2+p {
