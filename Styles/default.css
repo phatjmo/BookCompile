@@ -2,12 +2,41 @@
 
 An ebook stylsheet for Writer As A Stranger
 
-Ian Hocking 2013
-
+Stolen From Ian Hocking 2013
+Current Version Justin Zimmer 2017
 */
 
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    src: url("Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    src: url("Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: normal;
+    src: url("Ubuntu-Italic.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: bold;
+    src: url("Ubuntu-BoldItalic.ttf");
+}
+
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    /* font-family: "Ubuntu"; */
+    font-family: "Georgia", "Baskerville", "Palatino", "Literata", "Ubuntu";
 }
 
 p {
@@ -84,6 +113,99 @@ blockquote+p {
 
 .toc-title {
     font-size: 4em;
+}
+
+h2+p {
+    margin: 0;
+    text-indent: 0;
+}
+
+h3+p {
+    margin: 0;
+    text-indent: 0;
+}
+
+h5+p {
+    margin: 0;
+    text-indent: 0;
+}
+
+p {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title,
+.author,
+.publisher,
+.rights {
+    text-align: center;
+}
+
+.title {
+    hyphens: none;
+}
+
+.rights {
+    vertical-align: text-bottom;
+    margin-top: 75%;
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-indent: 0;
+    margin-top: 0;
+}
+
+A:link {
+    color: #0000ff;
+}
+
+hr {
+    margin-top: 3em;
+    border: none;
+}
+
+h5 {
+    text-align: center;
+    height: 1em;
+}
+
+#wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+blockquote p {
+    margin-top: 1em;
+    text-indent: 0;
+    font-style: italic;
+}
+
+blockquote+p {
+    margin: 0;
+    text-indent: 1em;
+}
+
+.section h1 {
+    margin: 0;
+    text-indent: 0;
+    page-break-before: always;
+    text-align: left;
+    font-size: 1em;
+    height: 3em;
+}
+
+.toc {
+    list-style-type: none;
+    text-align: center;
+}
+
+.toc-title {
+    font-size: 4em;
+    text-align: center;
 }
 
 h2+p {

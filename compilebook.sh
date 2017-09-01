@@ -8,5 +8,7 @@ then
   exit
 fi
 pandoc $CHAPTERS ../Manuscript/metadata.yaml -s --toc -o Output/$outputfile
+# To embed fonts...
+# pandoc $CHAPTERS ../Manuscript/metadata.yaml -s --toc -o Output/$outputfile --epub-embed-font="Styles/Fonts/Ubuntu/Ubuntu-*.ttf"
 #cat ../Manuscript/* | pandoc -s -o Output/$outputfile --toc
 open Output/$outputfile
