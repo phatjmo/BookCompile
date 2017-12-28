@@ -2,28 +2,28 @@
     font-family: Literata;
     font-style: normal;
     font-weight: normal;
-    src: url("Styles/Fonts/Literata/literata-regular.woff");
+    src: url("literata-regular.woff");
 }
 
 @font-face {
     font-family: Literata;
     font-style: normal;
     font-weight: bold;
-    src: url("Styles/Fonts/Literata/literata-bold.woff");
+    src: url("literata-bold.woff");
 }
 
 @font-face {
     font-family: Literata;
     font-style: italic;
     font-weight: normal;
-    src: url("Styles/Fonts/Literata/literata-italic.woff");
+    src: url("literata-italic.woff");
 }
 
 @font-face {
     font-family: Literata;
     font-style: italic;
     font-weight: bold;
-    src: url("Styles/Fonts/Literata/literata-bold-italic.woff");
+    src: url("literata-bold-italic.woff");
 }
 
 body {
