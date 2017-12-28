@@ -7,7 +7,7 @@ then
   echo "You must provide a filename with appropriate extension (i.e. file.epub for ePub) for this to work!"
   exit
 fi
-pandoc $CHAPTERS ../Manuscript/metadata.yaml -s --toc --epub-embed-font=$FONT -o Output/$outputfile
+pandoc $CHAPTERS ../Manuscript/metadata.yaml -s -S --toc --epub-embed-font=$FONT -o Output/$outputfile
 # To embed fonts...
 # pandoc $CHAPTERS ../Manuscript/metadata.yaml -s --toc -o Output/$outputfile --epub-embed-font="Styles/Fonts/Ubuntu/Ubuntu-*.ttf"
 #cat ../Manuscript/* | pandoc -s -o Output/$outputfile --toc
